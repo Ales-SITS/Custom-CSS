@@ -1,5 +1,9 @@
 # custom-css
 
+For MSF Internal purpose.
+
+Adjusted code from https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-injectcss
+
 ## Summary
 
 Short summary on functionality and used technologies.
