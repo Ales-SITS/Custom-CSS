@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://msfintl.sharepoint.com/sites/GRP-SITS-Crossroad/SitePages/sits-wiki1.aspx",
+      "customActions": {
+        "cb001df3-5737-4dbc-97bf-411dd0c21b40": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "customCss": {
+      "pageUrl": "https://msfintl.sharepoint.com/sites/GRP-SITS-Crossroad/SitePages/sits-wiki1.aspx",
+      "customActions": {
+        "cb001df3-5737-4dbc-97bf-411dd0c21b40": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
